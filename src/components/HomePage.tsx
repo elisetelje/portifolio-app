@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 export const HomePage = () => {
   return (
@@ -13,15 +14,17 @@ export const HomePage = () => {
           Jeg studerer Master Of Science in Informatics
         </h2>
         <p className="text-[#848794] py-4 max-w-[700px]">
-          Thanks for visiting my page, feel free to check out my portifolio
+          Takk for at du besøker siden min! Sjekk gjerne ut porteføljen min :)
         </p>
         <div>
-          <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+          <Link to="skills" smooth={true} duration={1000}>
+            <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex  bg-[#ef6f6c] items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
+              Mine erfaringer
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

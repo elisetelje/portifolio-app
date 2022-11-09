@@ -8,7 +8,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#edede9] text-gray-700">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ef6f6c] text-gray-700">
       <div>
         <img src={logo} alt="Logo" style={{ width: "50px" }} />
       </div>
@@ -49,17 +49,17 @@ export const Navbar = () => {
       >
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+            Hjem
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+            Om meg
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            Erfaringer
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -69,7 +69,7 @@ export const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Projects
+            Prosjekter
           </Link>
         </li>
       </ul>
