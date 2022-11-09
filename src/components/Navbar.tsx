@@ -16,22 +16,22 @@ export const Navbar = () => {
       <ul className="hidden md:flex ">
         <li>
           <Link to="home" smooth={true} duration={500}>
-            Home
+            Hjem
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            About
+            Om meg
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            Erfaringer
           </Link>
         </li>
         <li>
           <Link to="projects" smooth={true} duration={500}>
-            Projects
+            Prosjekter
           </Link>
         </li>
       </ul>
