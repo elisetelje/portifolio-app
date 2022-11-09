@@ -29,7 +29,7 @@ const AboutMe = () => {
           </div>
 
           <div>
-            <img alt="Picture of me" src={picture}></img>
+            <img alt="Me" src={picture}></img>
           </div>
           {!nav ? (
             <div onClick={handleClick} className=" z-10">

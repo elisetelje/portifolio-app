@@ -33,7 +33,7 @@ const Projects = () => {
                 </a>
               </div>
               <div>
-                <img alt="Picture of project" src={web}></img>
+                <img alt="project" src={web}></img>
               </div>
             </div>
           </div>
